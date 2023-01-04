@@ -7,6 +7,7 @@
     'description': "The descripton of this Module. explation",
 
     'author': "William WEI",
+    'license':"AGPL-3",
     'website': "http://www.carpetcall.com.au",
 
     # Categories can be used to filter modules in modules listing
@@ -25,7 +26,9 @@
         # 'views/views.xml',
         'security/library_security.xml',
         'security/ir.model.access.csv',
+        'views/book_view.xml',
         'views/library_menu.xml',
+        'views/book_list_template.xml',
 
     ],
     # # only loaded in demonstration mode

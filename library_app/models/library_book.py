@@ -23,3 +23,11 @@ class Book(models.Model):
             check = 10 - remain if remain !=0 else 0
             return digits[-1] == check
 
+
+    def button_check_isbn(self):
+        for book in self:
+            if not book.isbn:
+                raise ValidationError("Please provided an userful ISBN for %s" % book.name)
+            if book.isbn and not book._check_isbn():
+                raise ValidationError("%s ISBN is an invalid " % book.isbn)
+        return True
