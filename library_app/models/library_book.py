@@ -1,6 +1,31 @@
 from odoo import fields, models
 from odoo.exceptions import ValidationError
 
+
+# class ProjectTaskDetails(models.Model):
+#     _name = "product.details"
+#     _description = "product_Detailsinfo"
+#
+#     # _auto = False
+#     # project = fields.Many2one('product.product')
+#     sales_order = fields.Many2one('sale_order')
+#     partner = fields.Many2one('res.partner', string='Customer')
+#     # date_deadline = fields.Char(string='Deadline Date')
+#     sale_number = fields.Char(string="sales_name")
+#     order_date = fields.Date(string="sales_date")
+#     partner_name = fields.Char(string="PartenrName")
+#     partner_phone = fields.Char(string="PartnerPhone")
+#
+#     def init(self):
+#         self._cr.execute("""
+#         select	so.name as sale_number,
+# 	   			so.date_order as order_date,
+# 				rp.name as partner_name,
+# 				rp.phone as partner_phone
+#  	   from sale_order so
+# 	   join res_partner rp on so.partner_id=rp.id
+#       """)
+
 class Book(models.Model):
     _name = 'library.book'
     _description = "Book"

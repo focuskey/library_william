@@ -7,6 +7,7 @@
                     <span t-field="book.name" />
                     <span t-field="book.date_published" />
                     <span t-field="book.publisher_id" />
+                    <span t-field="book.isbn" />
                 </div>
             </t>
         </div>

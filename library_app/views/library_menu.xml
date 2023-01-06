@@ -9,11 +9,37 @@
         <field name="view_mode">tree,form</field>
     </record>
 
+
+    <!-- Form View Action for Project Task Details -->
+<!--    <record id="action_project_task_details_view" model="ir.actions.act_window">-->
+<!--        <field name="name">Project task</field>-->
+<!--        <field name="res_model">product.details</field>-->
+<!--        <field name="view_mode">tree,form</field>-->
+<!--        <field name="type">ir.actions.act_window</field>-->
+<!--&lt;!&ndash;        <field name="view_id" eval="False" />&ndash;&gt;-->
+<!--    </record>-->
+
+
     <!-- Menu item to open the Book list -->
     <menuitem id="menu_library_book"
               name="Books"
               parent="menu_library"
               action="action_library_book"
     />
+
+    <!-- Menu Item for the SQL view -->
+<!--    <menuitem id = "menu_project_task435"-->
+<!--              name="Project"-->
+<!--              parent="menu_library"-->
+<!--              action="action_project_task_details_view"-->
+<!--    />-->
+<!--&lt;!&ndash;&lt;!&ndash;              action="action_project_task_details_view"&ndash;&gt;&ndash;&gt;-->
+<!--    />-->
+
+<!--        <menuitem id="menu_library_book2"-->
+<!--              name="Pr22"-->
+<!--              parent="menu_library"-->
+<!--              action="action_library_book"-->
+<!--    />-->
 
 </odoo>

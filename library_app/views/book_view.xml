@@ -58,5 +58,19 @@
         </field>
     </record>
 
+    <!-- The View of SQL test -->
+<!--    <record id="action_product_details_tree" model="ir.ui.view">-->
+<!--        <field name="name">Product Details</field>-->
+<!--        <field name="model">product.details</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <tree string="Product Task" create="false">-->
+<!--                <field name="sale_number" />-->
+<!--                <field name="order_date" />-->
+<!--                <field name="partner_name" />-->
+<!--                <field name="partner_phone" />-->
+<!--            </tree>-->
+<!--        </field>-->
+<!--    </record>-->
+
 
 </odoo>
